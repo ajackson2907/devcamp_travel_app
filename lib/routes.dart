@@ -20,5 +20,18 @@ class Routes {
         city: state.extra! as Data,
       ),
     ),
+    routes: [
+      placeDetails,
+    ],
+  );
+
+  static final placeDetails = GoRoute(
+    path: 'placeDetails',
+    pageBuilder: (context, state) => MaterialPage(
+      key: state.pageKey,
+      child: PlaceDetails(
+        place: state.extra! as Place,
+      ),
+    ),
   );
 }

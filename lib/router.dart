@@ -3,7 +3,6 @@ import 'package:devcamp_travel_app/imports.dart';
 GoRouter appRouter = GoRouter(
   debugLogDiagnostics: true,
   initialLocation: Routes.home.path,
-  urlPathStrategy: UrlPathStrategy.path,
   routes: [
     Routes.home,
   ],

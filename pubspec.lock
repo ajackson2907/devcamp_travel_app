@@ -68,7 +68,7 @@ packages:
     source: sdk
     version: "0.0.0"
   flutter_web_plugins:
-    dependency: transitive
+    dependency: "direct main"
     description: flutter
     source: sdk
     version: "0.0.0"
@@ -78,7 +78,7 @@ packages:
       name: go_router
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "4.5.0"
+    version: "5.0.0"
   js:
     dependency: transitive
     description:
@@ -184,4 +184,4 @@ packages:
     version: "2.1.2"
 sdks:
   dart: ">=2.18.1 <3.0.0"
-  flutter: ">=3.0.0"
+  flutter: ">=3.3.0"
