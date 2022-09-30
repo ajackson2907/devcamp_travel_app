@@ -5,7 +5,7 @@ class Routes {
     path: '/',
     pageBuilder: (context, state) => MaterialPage(
       key: state.pageKey,
-      child: const Home(),
+      child: const HomeScreen(),
     ),
     routes: [
       details,

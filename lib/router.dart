@@ -11,7 +11,7 @@ GoRouter appRouter = GoRouter(
     print(state.error);
     return MaterialPage<void>(
       key: state.pageKey,
-      child: const Home(),
+      child: const HomeScreen(),
     );
   },
 );
