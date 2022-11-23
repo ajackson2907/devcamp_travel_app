@@ -15,7 +15,11 @@ class DestinationGridViewItem extends StatelessWidget {
       child: Padding(
         padding: const EdgeInsets.all(16.0),
         child: Container(
-          color: Colors.red.shade800,
+          clipBehavior: Clip.hardEdge,
+          decoration: BoxDecoration(
+            borderRadius: BorderRadius.circular(10),
+            color: Colors.red.shade800,
+          ),
           child: Column(
             children: [
               Hero(
